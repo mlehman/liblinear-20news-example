@@ -1,6 +1,6 @@
 # Liblinear-java 20 Newsgroups Example
 
-An example of using [liblinear-java](http://liblinear.bwaldvogel.de) with the 20 newsgroups data set.
+An example of using [liblinear-java](http://liblinear.bwaldvogel.de) in Scala with the 20 newsgroups data set.
 
 ##Downloading the Data Set
 
