@@ -37,7 +37,7 @@ object NewsgroupExample {
     problem.y = trainingTargets
 
     println("Training on " + numTrainingExamples + " examples with " + numOfFeatures + " features...")
-    val param = new Parameter(SolverType.L2R_LR, C, eps)
+    val param = new Parameter(SolverType.L2R_LR, C, eps) //L2-regularized logistic regression
     Linear.disableDebugOutput
     val results = new Array[Double](numTrainingExamples)
     Linear.crossValidation(problem, param, numOfFolds, results)
