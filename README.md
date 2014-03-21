@@ -1,6 +1,6 @@
 # Liblinear-java 20 Newsgroups Example
 
-An example of using [liblinear-java](http://liblinear.bwaldvogel.de) in Scala with the 20 newsgroups data set.
+An example showing how to use [liblinear-java](http://liblinear.bwaldvogel.de) for text classification in Scala with the 20 newsgroups data set. Additionally, this example shows how [Apache Lucene](http://lucene.apache.org/) can be leveraged for tokenizing, shingling, and more.
 
 ##Downloading the Data Set
 
